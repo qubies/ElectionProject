@@ -2,7 +2,6 @@ import re
 import inspect
 from itertools import islice
 import networkx as nx
-import graphviz
 
 parens = re.compile(r"\(.*\)")
 spaceFinder = re.compile(r"\s{2,}")
@@ -112,17 +111,16 @@ class headings:
         self.setDivisionName("None")
 
     def updateGraph(self, text=None):
-        self.g.add_node(self.myName())
-        thisNode = self.g.nodes[self.myName()]
-        self.g.add_edge(self.myName(), self.parentName())
-        thisNode["level"] = self.level
-        print(f"Node Name: {self.myName()}")
-        if text:
-            thisNode["text"] = text
+        name = self.myName()
+        self.g.add_node(name, text=text, level=self.level)
+        # self.g.add_edge(name, self.parentName())
+        self.g.add_edge(self.parentName(), name)
+        # print(f"Created: {self.g.nodes[name]}")
 
     def setPart(self, part):
         self.lastAction = inspect.currentframe().f_code.co_name
         self.part = part
+        self.partName = "None"
         self.division = "0"
         self.divisionName = "None"
         self.sectionName = "None"
@@ -132,8 +130,8 @@ class headings:
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
 
-        assert self.level >= 0, f"Current Level: {self.level}"
-        self.level = 1
+        assert self.level >= 1, f"Current Level: {self.level}"
+        self.level = 2
 
     def setPartName(self, partName):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -147,9 +145,9 @@ class headings:
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
 
-        assert self.level >= 1, f"Current Level: {self.level}"
+        assert self.level >= 2, f"Current Level: {self.level}"
 
-        self.level = 2
+        self.level = 3
 
     def setDivision(self, division):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -160,9 +158,9 @@ class headings:
         self.subsubsection = "0"
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
-        assert self.level >= 2, f"Current Level: {self.level}"
+        assert self.level >= 3, f"Current Level: {self.level}"
 
-        self.level = 3
+        self.level = 4
 
     def setDivisionName(self, divisionName):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -173,9 +171,9 @@ class headings:
         self.subsubsection = "0"
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
-        assert self.level >= 3, f"Current Level: {self.level}"
+        assert self.level >= 4, f"Current Level: {self.level}"
 
-        self.level = 4
+        self.level = 5
 
     def setSectionName(self, sectionName):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -185,10 +183,10 @@ class headings:
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
         assert (
-            self.level >= 2
+            self.level >= 3
         ), f"Current Level: {self.level}"  # divisions are sometimes undeclared
 
-        self.level = 5
+        self.level = 6
 
     def setSection(self, section):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -197,9 +195,9 @@ class headings:
         self.subsubsection = "0"
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
-        assert self.level >= 5, f"Current Level: {self.level}"
+        assert self.level >= 6, f"Current Level: {self.level}"
 
-        self.level = 6
+        self.level = 7
 
     def setSubSection(self, index):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -207,9 +205,9 @@ class headings:
         self.subsubsection = "0"
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
-        assert self.level >= 6, f"Current Level: {self.level}"
+        assert self.level >= 7, f"Current Level: {self.level}"
 
-        self.level = 7
+        self.level = 8
 
     def setSubSubSection(self, index):
         self.lastAction = inspect.currentframe().f_code.co_name
@@ -217,28 +215,29 @@ class headings:
         self.subsubsubsection = "0"
         self.subsubsubsubsection = "0"
         assert (
-            self.level >= 6
+            self.level >= 7
         ), f"Current Level: {self.level}"  # sometimes the Subsection is implicit 0 when there are no other sub numbers
 
-        self.level = 8
+        self.level = 9
 
     def setSubSubSubSection(self, index):
         self.lastAction = inspect.currentframe().f_code.co_name
         self.subsubsubsection = index
         self.subsubsubsubsection = "0"
-        assert self.level >= 8, f"Current Level: {self.level}"
-
-        self.level = 9
-
-    def setSubSubSubSubSection(self, index):
-        self.lastAction = inspect.currentframe().f_code.co_name
-        self.subsubsubsubsection = index
         assert self.level >= 9, f"Current Level: {self.level}"
 
         self.level = 10
 
+    def setSubSubSubSubSection(self, index):
+        self.lastAction = inspect.currentframe().f_code.co_name
+        self.subsubsubsubsection = index
+        assert self.level >= 10, f"Current Level: {self.level}"
+
+        self.level = 11
+
     def tolist(self):
         return [
+            self.root,
             self.partName,
             self.part,
             self.divisionName,
@@ -252,23 +251,21 @@ class headings:
         ]
 
     def parentName(self):
-        p = 0
         if self.level == 1:
-            print(f"parentName: {self.root}")
+            # print(f"parentName: {self.root}")
             return self.root
-        for i, x in enumerate(self.tolist()[: self.level - 1 : -1]):
+        for i, x in enumerate(reversed(self.tolist()[: self.level - 1])):
+            parentName = "--".join(
+                list(map(str, self.tolist()))[: self.level - 1 - i]
+            ).replace(" ", "_")
             if x != 0 and x != "None":
-                p = i
-                parentName = "--".join(
-                    list(map(str, self.tolist()))[: self.level - 1 - p]
-                ).replace(" ", "_")
                 if parentName in self.g.nodes():
                     break
         else:
-            print(f"parentName: {self.root}")
+            # print(f"parentName: {self.root}")
             return self.root
 
-        print(f"parentName: {parentName}")
+        # print(f"parentName: {parentName}")
         return parentName
 
     def myName(self):
@@ -402,20 +399,22 @@ def getInParens(text):
 
 def parseText(fileName, verbose=False):
     lines, headings = readText("data/electionActLabeled.txt")
-    for i, x in enumerate(headings):
-        print("-" * 80)
+    for i, (heading, text) in enumerate(zip(headings, lines)):
         if verbose:
-            print(f"Heading: {x}")
+            print("-" * 80)
+            print(f"Heading: {heading}")
         if i == 0:
-            headingParser(-1, x, headings[i + 1])
+            headingParser(-1, heading, headings[i + 1])
         elif i == len(headings) - 1:
-            headingParser(headings[i - 1], x, -1)
+            headingParser(headings[i - 1], heading, -1)
         else:
-            headingParser(headings[i - 1], x, headings[i + 1])
+            headingParser(headings[i - 1], heading, headings[i + 1])
         if verbose:
             print(f"Last action: {currentHeadings.lastAction}")
             print(f"currentHeadings{currentHeadings}")
-            print(f"level: {currentHeadings.level}")
-        currentHeadings.updateGraph()
+        currentHeadings.updateGraph(text=text)
+    for n in currentHeadings.g.nodes:
+        print(f"node: {n}:{currentHeadings.g.nodes[n]}")
 
     nx.write_edgelist(currentHeadings.g, "electionsEdgelist.csv", data=False)
+    return currentHeadings.g

@@ -144,7 +144,7 @@ def fn_from_regex(topic, regexExpression, standardized=False):
             if len(m.groups) < 1:
                 return -1
             else:
-                return m.groups()
+                return m.group
             if all(x in text[text_field].lower() for x in words):
                 return topic.value
             return -1
