@@ -381,6 +381,7 @@ def readText(fileName="electionActLabeled.txt"):
             and "Repealed" not in line
         ]
         headings = [line[: getBreak(line)] for line in lines]
+        lines = [line[getBreak(line) :].strip() for line in lines]
         assert len(lines) == len(headings)
     return lines, headings
 
