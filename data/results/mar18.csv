@@ -1,0 +1,739 @@
+,F1,Precision,Recall,Partial F1,Partial Recall,Partial Precision,New Candidates
+0,0.43586550435865506,0.7113821138211383,0.3141831238779174,0.5219858156028369,0.36007827788649704,0.9484536082474226,[]
+1,0.46191051995163235,0.7074074074074074,0.34290843806104127,0.5410292072322671,0.3806262230919765,0.9350961538461539,"['polling places', 'rejected ballots', 'voter', 'constituency association', 'relevant electoral division', 'statement', 'polling subdivisions', 'election clerk', 'electors', 'election process']"
+2,0.4776470588235294,0.6928327645051194,0.3644524236983842,0.5567715458276334,0.39823874755381605,0.925,"['election clerks', 'poll clerk', 'ballot', 'voters ballot', 'candidates behalf', 'nominee', 'election survey', 'elections enumerations', 'ballots', 'official']"
+3,0.4890426758938869,0.6838709677419355,0.38061041292639136,0.5646900269541778,0.40998043052837574,0.9069264069264069,"['court', 'ballot box', 'vote', 'election period', 'candidates names', 'ballot boxes', 'poll clerks', 'bulletins', 'judgment', 'registration officer']"
+4,0.48747152619589973,0.6666666666666666,0.38420107719928187,0.5691382765531062,0.41682974559686886,0.8968421052631579,"['election proclamation', 'persons nomination', 'survey', 'notice', 'nomination paper', 'voters intention', 'survey results', 'school division', 'section derogates', 'disclosure']"
+5,0.48697621744054365,0.6595092024539877,0.3859964093357271,0.5691489361702127,0.4187866927592955,0.8879668049792531,"['nomination papers', 'vote cast', 'persons behalf', 'election documents', 'voters name', 'campaign expenses', 'persons name', 'petitioner', 'judges seal', 'particulars']"
+6,0.45310853530031614,0.548469387755102,0.3859964093357271,0.5690642902609803,0.43737769080234834,0.8142076502732241,"['electors name', 'person', 'information', 'landlords behalf', 'period', 'deputy', 'appeal', 'application', 'time period', 'fact']"
+7,0.42970297029702975,0.47902869757174393,0.3895870736086176,0.5856353591160222,0.46673189823874756,0.785831960461285,"['section', 'poll', 'persons', 'applications', 'landlord', 'request', 'polls', 'time review', 'appointment', 'name']"
+8,0.4214487300094074,0.4426877470355731,0.4021543985637343,0.6087990487514863,0.5009784735812133,0.7757575757575758,"['candidates', 'results', 'subsection', 'report', 'Part', 'recount', 'appellant', 'announcement', 'return', 'seal']"
+9,0.4189063948100093,0.4329501915708812,0.40574506283662476,0.6069534472598703,0.5039138943248532,0.762962962962963,"['nomination', 'friend', 'party', 'onus', 'evidence', 'disclaimer', 'provision', 'contravention', 'perjury', 'matter']"
+10,0.41750227894257064,0.42407407407407405,0.4111310592459605,0.6044340723453909,0.5068493150684932,0.7485549132947977,"['time', 'offence', 'prosecution', 'obligation', 'list', 'proceedings', 'prohibitions', 'facility', 'representative', 'petition']"
+11,0.4085637823371989,0.40602836879432624,0.4111310592459605,0.5983889528193325,0.5088062622309197,0.7262569832402235,"['campaign', 'advertisement', 'building', 'duties', 'equipment', 'case', 'day', 'action', 'way', 'purpose']"
+12,0.3482142857142857,0.29733163913595934,0.42010771992818674,0.5911179173047474,0.5665362035225049,0.6179295624332978,"['note', 'manner', 'officer', 'Act', 'the', 'power', 'confirmation', 'sponsor', 'distance', 'identification']"
+13,0.3257103257103257,0.2652370203160271,0.42190305206463197,0.5655976676384838,0.5694716242661448,0.5617760617760618,"['applicant', 'documents', 'authority', 'occupant', 'a', 'by‑', 'charge', 'service', 'investigation', 'allegations']"
+14,0.3228454172366621,0.26077348066298345,0.4236983842010772,0.5662012518054886,0.5753424657534246,0.557345971563981,"['act', 'parties', 'fee', 'tenant', 'hours', 'department', 'following', 'complaint', 'custody', 'imposition']"
+15,0.3178451178451178,0.2543103448275862,0.4236983842010772,0.5638095238095239,0.5792563600782779,0.549165120593692,"['deposit', 'location', 'line', 'residence', 'use', 'public', 'guidelines', 'conduct', 'objection', 'agreement']"
+16,0.3160690571049137,0.2507903055848261,0.4272890484739677,0.5636192271442035,0.5851272015655578,0.5436363636363636,"['result', 'voters', 'purposes', 'document', 'place', 'compliance agreement', 'prohibition', 'directive', 'government', 'choice']"
+17,0.3139841688654354,0.24817518248175183,0.4272890484739677,0.5609756097560976,0.5851272015655578,0.5387387387387388,"['periods', 'provisions', 'responsibility', 'opinion', 'room', 'effect', 'map', 'reward', 'withdrawal', 'termination']"
+18,0.3109954456733897,0.24387755102040817,0.42908438061041293,0.5599999999999999,0.589041095890411,0.5336879432624113,"['polling', 'enumerators identification', 'compliance', 'lists', 'maps', 'votes', 'one', 'cost', 'paper', 'proclamation']"
+19,0.31065468549422337,0.24175824175824176,0.43447037701974867,0.5637954859511747,0.598825831702544,0.5326370757180157,"['officers', 'record', 'premises', 'requirements', 'office', 'reason', 'employees', 'irregularity', 'council', 'penalty']"
+20,0.30847673677501597,0.2391304347826087,0.43447037701974867,0.5618698441796518,0.5998043052837574,0.528448275862069,"['matters', 'fine', 'grounds', 'secretary', 'area', 'printer', 'method', 'receipt', 'circumstances', 'letter']"
+21,0.3055555555555556,0.23563777994157742,0.43447037701974867,0.5598543468365953,0.601761252446184,0.5234042553191489,"['procedure', 'question', 'date', 'means', 'extent', 'amount', 'integrity', 'contracting', 'envelope', 'photograph']"
+22,0.3032581453634085,0.2329162656400385,0.43447037701974867,0.5577184246265278,0.6027397260273972,0.518955349620893,"['envelopes', 'duty', 'amounts', 'expenses', 'behalf', 'right', 'visit', 'form', 'sum', 'expression']"
+23,0.3014888337468982,0.23033175355450236,0.4362657091561939,0.5546067415730337,0.6037181996086106,0.512884455527847,"['costs', 'employee', 'hour', 'names', 'forms', 'powers', 'school', 'respondents', 'number', 'petitioners']"
+24,0.3,0.22714681440443213,0.44165170556552963,0.5681313803817132,0.6262230919765166,0.5199025182778229,"['judges', 'deposits', 'owner', 'data', 'policy', 'this', '', 'plebiscite', 'confusion', 'challenges']"
+25,0.29634073185362925,0.22252252252252253,0.44344703770197486,0.5622807017543859,0.62720156555773,0.5095389507154213,"['counterfoil', 'no', 'injunction', 'regulation', 'word', 'money', 'address', 'tally', 'copy', 'food']"
+26,0.29850746268656714,0.22361359570661896,0.4488330341113106,0.5638111888111889,0.6311154598825832,0.509478672985782,"['nominations', 'addresses', 'testimony', 'claim', 'count', 'enumerators', 'estimate', 'charter', 'hearing', 'order']"
+27,0.2996432818073722,0.224,0.4524236983842011,0.5664488017429194,0.6360078277886497,0.5106048703849175,"['contribution', 'change', 'speaker', 'generality', 'entity', 'media', 'vacancy', 'ex', 'sample', 'certificate']"
+28,0.28863636363636364,0.2111388196176226,0.45601436265709155,0.5503581963758956,0.6389432485322897,0.48334566987416727,"['seals', 'sponsors', 'registration', 'facts', 'clerks', 'in', 'inquiry', 'division', 'certification', 'services']"
+29,0.27370689655172414,0.19553502694380293,0.45601436265709155,0.5330093155123531,0.6438356164383562,0.45473393227366965,"['landlords', 'advertising', 'to', 'board', 'conditions', 'emergency', 'treatment', 'places', 'supply', 'authorization']"
+30,0.2734584450402145,0.19495412844036697,0.4578096947935368,0.5361324182478805,0.649706457925636,0.4563573883161512,"['returning', 'terms', 'book', 'papers', 'constituency', 'settlement', 'meeting', 'rights', 'hall', 'c']"
+31,0.2730192719486082,0.1945080091533181,0.4578096947935368,0.5362903225806452,0.6506849315068494,0.4561042524005487,"['situation', 'questions', 'boxes', 'year', 'enactment', 'property', 'floor', 'leadership', 'space', 'week']"
+32,0.272,0.19347496206373294,0.4578096947935368,0.5355850422195416,0.6516634050880626,0.4546075085324232,"['oaths', 'letters', 'cause', 'publication', 'character', 'appellants', 'steps', 'X', 'effort', 'font']"
+33,0.27070063694267515,0.19216277317256972,0.4578096947935368,0.5352564102564102,0.6536203522504892,0.4531886024423338,"['beverages', 'advance', 'secrecy', 'compensation', 'pen', 'inmate', 'warrant', 'size', 'equality', 'peace']"
+34,0.2651475919212843,0.18631732168850074,0.45960502692998206,0.5277231616201337,0.6565557729941291,0.44115713346482577,"['for', 'event', 'absences', 'loss', 'knowledge', 'corrections', 'assistants', 'scrutineers', 'signature', 'safety']"
+35,0.26487325400931194,0.18604651162790697,0.45960502692998206,0.5273084479371316,0.6565557729941291,0.44057780695994747,"['outcome', 'statements', 'permission', 'supplies', 'members', 'representatives', 'term', 'review', 'employer', 'confidentiality']"
+36,0.2640536358947911,0.18523878437047755,0.45960502692998206,0.5260682085456684,0.6565557729941291,0.43884892086330934,"['call', 'entry', 'consent', 'directions', 'taking', 'end', 'remedy', 'writing', 'ignorance', 'affairs']"
+37,0.2635100360267627,0.1847041847041847,0.45960502692998206,0.5252446183953033,0.6565557729941291,0.43770384866275275,"['inspection', 'condominium', 'telephone', 'desirability', 'contrary', 'stub', 'opening', 'summary', 'code', 'format']"
+38,0.2624295233213737,0.1836441893830703,0.45960502692998206,0.5236051502145922,0.6565557729941291,0.4354315379623621,"['back', 'employment', 'issue', 'completion', 'contact', 'operation', 'check', 'unless', 'conclusion', 'Speech']"
+39,0.26055979643765903,0.18181818181818182,0.45960502692998206,0.5207605743112145,0.6565557729941291,0.4315112540192926,"['counting', 'subject', 'issuing', 'total', 'assistance', 'writs', 'commencement', 'restrictions', 'eligibility', 'whichever']"
+40,0.256128064032016,0.17753120665742025,0.45960502692998206,0.5155112983531214,0.6585127201565558,0.42353681560730017,"['Statement', 'box', 'records', 'findings', 'subdivisions', 'force', 'establishment', 'management', 'tariff', 'any']"
+41,0.2557442557442557,0.17716262975778546,0.45960502692998206,0.5149196633511859,0.6585127201565558,0.42273869346733667,"['recommendations', 'bet', 'disturbance', 'obstruction', 'boundaries', 'history', 'stay', 'denial', 'group', 'including']"
+42,0.25536159600997504,0.17679558011049723,0.45960502692998206,0.5158578525028659,0.6604696673189824,0.4231974921630094,"['boundary', 'band', 'conveyance', 'initials', 'transition', 'display', 'municipalitys', 'interpreter', 'packet', 'proposal']"
+43,0.2544731610337972,0.1759450171821306,0.45960502692998206,0.5152439024390243,0.6614481409001957,0.42197253433208487,"['elections', 'revision', 'closing', 'sign', 'municipality', 'window', 'signs', 'exercise', 'nature', 'adjournment']"
+44,0.24890617403986387,0.17066666666666666,0.45960502692998206,0.5065567628325216,0.6614481409001957,0.41044323011536127,"['‑day', 'part', 'beginning', 'expense', 'security', 'an', 'losses', 'portion', 'procedures', 'transportation']"
+45,0.2359447004608295,0.1587104773713577,0.45960502692998206,0.505763688760807,0.6868884540117417,0.40022805017103763,"['electorate', 'start', 'numbers', 'registered', 'leader', 'step', 'dates', 'meaning', 'of', 'institution']"
+46,0.23464711274060499,0.15753846153846154,0.45960502692998206,0.5078909612625538,0.6927592954990215,0.40090600226500567,"['agreements', 'days', 'process', 'piece', 'ability', 'giving', 'close', 'hiring', 'spouse', 'resident']"
+47,0.23368324965769052,0.15667074663402691,0.45960502692998206,0.5069717554522702,0.6937377690802349,0.39943661971830985,"['in‑', 'hire', 'decision', 'designate', 'indication', 'commission', 'reprimand', 'later', 'substance', 'site']"
+48,0.22705099778270513,0.15076560659599528,0.45960502692998206,0.49842712338343237,0.6976516634050881,0.38771071234366505,"['and', 'functions', 'passing', 'witness', 'filing', 'holding', 'gift', 'assets', 'holiday', 'removal']"
+49,0.2276350752878654,0.15108759553204,0.4614003590664273,0.5,0.700587084148728,0.38870792616720956,"['trial', 'agency', 'age', 'mode', 'course', 'allowance', 'continuation', 'discretion', 'mistake', 'conflict']"
+50,0.22504378283712786,0.14881297046902142,0.4614003590664273,0.49550173010380627,0.700587084148728,0.38329764453961457,"['expenditure', 'recommendation', 'absence', 'each', 'testing', 'rates', 'introduction', 'calendar', '‑based', 'practice']"
+51,0.22117039586919107,0.14544425580079232,0.4614003590664273,0.49010238907849835,0.7025440313111546,0.37631027253668764,"['that', 'locations', 'reasons', 'quantity', 'procurement', 'correction', 'failure', 'basis', 'withholding', 'percentage']"
+52,0.22450728363324765,0.14743950478334272,0.4703770197486535,0.49251700680272104,0.7084148727984344,0.37747653806047965,"['desk', 'commissioner', 'violation', 'direction', 'stage', 'staff', 'land', 'referendum', 'law', 'disagreement']"
+53,0.22402736212056434,0.14702581369248036,0.4703770197486535,0.4916808149405773,0.7084148727984344,0.3764950598023921,"['proceeding', 'view', 'position', 'contract', 'breach', 'approval', 'control', 'delay', 'broadcast', 'possession']"
+54,0.21670802315963603,0.14078452444922085,0.4703770197486535,0.4801587301587301,0.7103718199608611,0.3626373626373626,"['chair', 'population', 'justice', 'salary', 'transmission', 'presence', 'degree', 'others', 'contents', 'or']"
+55,0.21670802315963603,0.14078452444922085,0.4703770197486535,0.4801587301587301,0.7103718199608611,0.3626373626373626,"['entrance', 'signatures', 'content', 'wording', 'citizenship', 'Throne', 'disqualification', 'breakdown', 'community', 'dissolution']"
+56,0.21661843737081438,0.14070891514500536,0.4703770197486535,0.4799999999999999,0.7103718199608611,0.3624563155267099,"['marker', 'convenience', 'types', 'severity', 'expiration', 'performance', 'type', 'franchise', 'appropriation', 'gender']"
+57,0.21626083367725957,0.14040728831725616,0.4703770197486535,0.4800264113568834,0.7113502935420744,0.36223218734429496,"['preparation', 'validity', 'outside', 'additions', 'network', 'availability', 'campuses', 'complex', 'operator', 'taxpayers']"
+58,0.21440261865793778,0.13884472708002119,0.4703770197486535,0.476565060635857,0.7113502935420744,0.358304583538689,"['‑to‑', '‑polling‑', 'appeals', 'allegation', 'liability', 'obligations', 'settlements', 'with', 'orders', 'advertisements']"
+59,0.21086519114688124,0.1358921161825726,0.4703770197486535,0.47024579560155233,0.7113502935420744,0.351207729468599,"['under', 'interpreters', 'injunctions', 'officials', 'material', 'centre', 'proof', 'printing', 'residences', 'agent']"
+60,0.21052631578947367,0.13561076604554864,0.4703770197486535,0.4696382428940568,0.7113502935420744,0.35053037608486015,"['practices', 'organization', 'class', 'damages', 'contestant', 'station', 'contingency', 'jurisdictions', 'standards', 'access']"
+61,0.21233974358974356,0.13666838576585869,0.4757630161579892,0.47051240734772803,0.7142857142857143,0.35079288803459874,"['damage', 'approved', 'instructions', 'd', 'Provincial', 'impossibility', 'affidavit', 'incapacity', 'activity', 'factors']"
+62,0.21208483393357339,0.1364572605561277,0.4757630161579892,0.4700579523502898,0.7142857142857143,0.3502879078694818,"['activities', 'interest', 'posters', 'recent', 'corporation', 'colour', 'successor', 'disproportionate', 'interviews', 'margin']"
+63,0.21183053557154274,0.13624678663239073,0.4757630161579892,0.4702476680604696,0.7152641878669276,0.35026353617632966,"['‑year', 'regulations', 'website', 'materials', 'individuals', 'people', 'notices', 'every', 'methods', 'partys']"
+64,0.2081696779261587,0.13323278029160382,0.4757630161579892,0.4854060913705584,0.7485322896281801,0.3591549295774648,"['another', 'electoral', 'political', 'worker', 'bases', 'shelter', 'areas', 'written', 'modifications', 'provide']"
+65,0.20846394984326022,0.13333333333333333,0.47755834829443444,0.48575047498416724,0.7504892367906066,0.35908239700374533,"['identifier', 'association', 'clauses', 'earnings', 'district', 'determination', 'omission', 'clause', 'supervision', 'cheque']"
+66,0.20867526377491208,0.13336663336663337,0.4793536804308797,0.4890995260663507,0.7573385518590998,0.3611759216052263,"['stations', 'file', 'dwelling', 'students', 'living', 'contest', 'declaratory', 'booth', 'derogates', 'computer‑']"
+67,0.20697674418604656,0.13198220464656452,0.4793536804308797,0.4896421845574388,0.7632093933463796,0.36044362292051757,"['from', 'contributions', 'divisions', 'capacity', 'institutions', 'meetings', 'consideration', 'respect', 'surname', 'addition']"
+68,0.20475460122699385,0.13018039980497317,0.4793536804308797,0.48786558805227137,0.7671232876712328,0.35766423357664234,"['Voting', 'on', 'charges', 'campaigning', 'details', 'sections', 'revisions', 'copies', 'years', 'enumerations']"
+69,0.20189035916824197,0.1278735632183908,0.4793536804308797,0.4829283297446939,0.7681017612524462,0.3521758636159713,"['by', 'subsections', 'pencil', 'regard', 'voice', 'ascertain', 'page', 'opportunity', 'consultation', 'impartiality']"
+70,0.20060105184072127,0.12684085510688836,0.4793536804308797,0.4810281517747857,0.7690802348336595,0.3499554764024933,"['Results', 'other', 'efforts', 'agents', 'referendums', 'quantities', 'card', 'legislation', 'assistant', 'rules']"
+71,0.20052572286894482,0.1267806267806268,0.4793536804308797,0.4814928112572653,0.7700587084148728,0.35024477080551847,"['months', 'acts', 'citizen', 'table', 'none', 'endorsement', 'interference', 'marking', 'finding', 'home']"
+72,0.20045045045045046,0.1267204556241101,0.4793536804308797,0.4813455657492355,0.7700587084148728,0.3500889679715303,"['expenditures', 'amendments', 'changes', 'function', 'applicants', 'decisions', 'support', 'membership', 'fiscal', 'documentation']"
+73,0.20067390490453013,0.12677388836329234,0.48114901256732495,0.48092767775404327,0.7710371819960861,0.34944567627494455,"['presentation', 'omissions', 'passage', 'penitentiaries', 'entirety', 'residents', 'pursuant', 'attendance', 'views', 'attention']"
+74,0.19977636973537086,0.12605832549388524,0.48114901256732495,0.4797810884767406,0.7720156555772995,0.34803705337450375,"['accordance', 'account', 'make', 'transfer', 'fairness', 'reserve', 'kilometres', 'discovery', 'mark', 'imprisonment']"
+75,0.1994047619047619,0.12576255279211637,0.48114901256732495,0.47965998785670916,0.7729941291585127,0.3477112676056338,"['payment', 'possessor', 'negligence', 'seriousness', 'conviction', 'rise', '5av', 'programs', 'endowments', 'session']"
+76,0.19992567818654777,0.1260543580131209,0.4829443447037702,0.4795392543194908,0.773972602739726,0.34738691260430393,"['deals', '‑free', 'sitting', 'accounting', 'cast', 'maintenance', 'intent', 'resignation', 'pretence', 'legible']"
+77,0.19985141158989597,0.12599531615925058,0.4829443447037702,0.4793939393939394,0.773972602739726,0.3472344161545215,"['rejection', 'sufficient', 'language', '6', 'reoccurrence', 'instrument', 'trespass', 'text', 'unit', 'resolution']"
+78,0.19962894248608537,0.12581852198316185,0.4829443447037702,0.4795640326975477,0.7749510763209393,0.34721613327487943,"['8‑', 'messaging', 'image', 'desires', 'container', 'body', 'administrator', 'conveyances', 'perforations', 'conjunction']"
+79,0.19948090470893587,0.12570093457943926,0.4829443447037702,0.47927382753403935,0.7749510763209393,0.3469119579500657,"['71b', 'trust', 'faith', 'mandamus', 'combination', 'balance', 'loan', 'production', 'precautions', 'relation']"
+80,0.19925925925925925,0.12552496500233318,0.4829443447037702,0.4788391777509069,0.7749510763209393,0.3464566929133858,"['column', 'parte', 'default', 'birth', 'reference', 'columns', 'satisfaction', '‑alone', 'plebiscites', 'suspension']"
+81,0.19918548685671975,0.12546641791044777,0.4829443447037702,0.47869446962828655,0.7749510763209393,0.34630520332313075,"['‑election', 'By‑', 'Expenses', 'Electors', 'non‑', 'conflicts', 'courts', 'fees', 'investigations', 'percentages']"
+82,0.1991117690599556,0.12540792540792542,0.4829443447037702,0.479154078549849,0.7759295499021527,0.3465909090909091,"['disposition', 'complaints', 'reserves', 'disability', 'penalties', 'objections', 'shelters', 'poster', 'detail', 'contracts']"
+83,0.19852398523985237,0.12494194147700882,0.4829443447037702,0.48101265822784806,0.7808219178082192,0.3475609756097561,"['workers', 'citizens', 'printed', 'facilities', 'liabilities', 'estimates', 'allocation', 'offices', 'guidance', 'ending']"
+84,0.19845075617853192,0.12488393686165274,0.4829443447037702,0.48147032238626086,0.7818003913894325,0.347845015237266,"['making', 'pieces', 'booths', 'limitations', 'codes', 'remuneration', 'groups', 'classes', 'preparations', 'surnames']"
+85,0.19830446000737187,0.12476808905380334,0.4829443447037702,0.48238482384823855,0.7837573385518591,0.34841235319704217,"['limitation', 'proposals', 'sums', 'causes', 'profit', 'exercises', 'counsel', 'books', 'centres', 'enforcement']"
+86,0.1982313927781872,0.12471024571163654,0.4829443447037702,0.48223961468994586,0.7837573385518591,0.3482608695652174,"['work', 'endowment', 'dismissal', 'opens', 'publications', 'sampling', 'occasions', 'demands', 'identity', 'designation']"
+87,0.19735876742479821,0.12402028584601199,0.4829443447037702,0.4811037792441511,0.7847358121330724,0.3468858131487889,"['affidavits', 'has', 'errors', 'fix', 'rent', 'harm', 'irregularities', 'revenue', 'merit', 'partner']"
+88,0.19721407624633427,0.1239060340856748,0.4829443447037702,0.4808153477218225,0.7847358121330724,0.3465859982713915,"['policies', 'error', 'difficulties', 'affiliation', 'device', 'efficiency', 'stores', 'influence', 'its', 'tort']"
+89,0.19692532942898974,0.12367816091954023,0.4829443447037702,0.48143712574850295,0.786692759295499,0.3468507333908542,"['store', 'goods', 'restraint', 'attempts', 'observation', 'mobile', 'mail', 'structure', 'answers', 'am']"
+90,0.19817184643510055,0.12442607897153352,0.4865350089766607,0.4822016153155848,0.7886497064579256,0.34726411029728566,"['b', 'e', 'tenders', 'plans', 'face', 'solicitors', 'certainty', 'gives', 'point', 'halls']"
+91,0.19817184643510055,0.12442607897153352,0.4865350089766607,0.4822016153155848,0.7886497064579256,0.34726411029728566,"['difficulty', 'destruction', 'state', 'hand', 'wilfulness', 'inconsistency', 'repayment', 'lends', 'distribution', 'bill']"
+92,0.19802703690171722,0.1243119266055046,0.4865350089766607,0.4825112107623319,0.7896281800391389,0.34739560912613,"['grants', 'travelling', 'deceit', 'lapses', 'pursuance', 'duress', 'excess', 'c29', 'bailiffs', '‑door']"
+93,0.19795471146822496,0.12425492893168272,0.4865350089766607,0.48236700537955773,0.7896281800391389,0.3472461273666093,"['grant', 'sequence', 'shelf', 'counter', 'ticket', 'bank', 'relief', 'economy', 'normalization', 'improvement']"
+94,0.19737800436999273,0.12380082229328461,0.4865350089766607,0.48121645796064394,0.7896281800391389,0.3460548885077187,"['corporations', 'present', 'education', 'connection', 'nickname', 'blackout', 'template', 'retention', 'votecounting', 'inducement']"
+95,0.1958800144560896,0.12262443438914027,0.4865350089766607,0.47881481481481486,0.7906066536203522,0.34339141521461963,"['at', 'points', 'preservation', 'logic', 'health', 'abduction', 'weighting', 'quarters', 'voucher', 'promises']"
+96,0.19603603603603606,0.12263300270513977,0.4883303411131059,0.47886491279929055,0.7925636007827789,0.34307496823379924,"['all', 'restitution', 'Offences', 'supervisor', 'confirms', 'sheets', 'reduction', 'void', 'accuracy', 'fax']"
+97,0.19409882687522217,0.12101063829787234,0.49012567324955114,0.47368421052631576,0.7925636007827789,0.3377814845704754,"['publish', 'sign poster', 'affect', 'as', 'settlement council', 'those', 'determined', 'requires', 'furnish', 'which']"
+98,0.19205065072106928,0.1194225721784777,0.49012567324955114,0.4695652173913043,0.7925636007827789,0.33360790774299837,"['The', 'within', 'after', 'out', 'about', 'when', 'produce', 'flap', 'laid', 'lighting']"
+99,0.18971507991660874,0.11762171477811288,0.49012567324955114,0.4648493543758967,0.7925636007827789,0.32886723507917176,"['Officer', 'Division', 'whose', 'before', 'than', 'during', 'against', 'without', 'until', 'alienation']"
+100,0.1842726965912926,0.11346633416458853,0.49012567324955114,0.4549019607843137,0.7945205479452054,0.31868131868131866,"['into', 'inside', 'up', 'transmit', 'is', 'between', 'be', 'appointed', 'stored', 'due']"
+101,0.18334452652787106,0.1127633209417596,0.49012567324955114,0.4529986052998605,0.7945205479452054,0.3168162309793211,"['petition file', 'through', 'transferred', 'down', 'considered', 'held', 'above', 'different', 'provided', 'conducted']"
+102,0.18145695364238412,0.11124644742184328,0.4919210053859964,0.44725970806940235,0.7945205479452054,0.3112303564584132,"['door', 'tenants', 'certificate envelope', 'for each', 'per', 'impact', 'invalid', 'beyond', 'shall', 're']"
+103,0.18434093161546086,0.11295546558704453,0.5008976660682226,0.45042570722329034,0.8023483365949119,0.3130966017563956,"['‑compliance', 'desk table', 'contracting party', 'km', 'compiled', 'creation', 'system', 'summonses', 'Alberta', 'obtained']"
+104,0.18391562294001318,0.112636253532499,0.5008976660682226,0.449561403508772,0.8023483365949119,0.31226199543031224,"['month', 'judges judgment', 'using', 'charter school', 'what', 'minutes', 'but', 'assigned', 'acting', 'either']"
+105,0.18391562294001318,0.112636253532499,0.5008976660682226,0.449561403508772,0.8023483365949119,0.31226199543031224,"['Department', 'municipalitys secretary', 'voter place', 'clerks office', 'contracting partys', 'time nominations', 'closing time', 'municipality information', 'calendar year', 'candidates campaign']"
+106,0.18397626112759644,0.11268174474959612,0.5008976660682226,0.449561403508772,0.8023483365949119,0.31226199543031224,"['call display', 'persons function', 'section elector', 'enumeration materials', 'section advertisement', 'nor', '3bi', 's51', 'initiative', 'surprise']"
+107,0.18366013071895426,0.1122652816620056,0.5044883303411131,0.44589450788472,0.8023483365949119,0.30873493975903615,"['election officers', 'judgment declaratory', 'must', 'polling booth', 'judges report', 'because', 'opposite', 'members request', 'persons powers', 'if']"
+108,0.18359375,0.1121272365805169,0.5062836624775583,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['campaign worker', 'except', 'where', 'whether', 'representatives authorization', 'information officer', '16c', 'adult', 'pm', 'intimidation']"
+109,0.18507657217334636,0.11305732484076433,0.5098743267504489,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['polling stations', 'polling booths', 'enumerators successor', 'restrictions limitations', 'enumerators expense', 'judges directions', 'the treatment', 'enumerators subdivision', 'referendum period', 'community support']"
+110,0.18584936419954354,0.11354581673306773,0.5116696588868941,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['nomination form', 'candidates nomination', 'election procedures', 'contract agreement', 'nomination contestant', 'revision period', 'a treatment', 'survey questions', 'place date', 'a supply']"
+111,0.1866231647634584,0.11403508771929824,0.5134649910233393,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['election proceedings', 'landlord person', 'registration officers', 'treatment centres', 'the supply', 'petition deposit', 'proclamation notice', 'electors vote', 'contact information', 'judges reasons']"
+112,0.1866231647634584,0.11403508771929824,0.5134649910233393,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['emergency shelters', 'enumerators duties', 'property assets', 'sponsors name', 'sponsors campaign', 'sampling method', 'documents materials', 'window door', 'candidates surname', 'persons ballot']"
+113,0.1866231647634584,0.11403508771929824,0.5134649910233393,0.4443240314277973,0.8023483365949119,0.30723117272386663,"['nomination contest', 'leadership contestant', 'elector resident', 'enumerator identification', 'ex parte', 'information officers', 'election return', 'office store', 'employees employer', 'enumeration election']"
+114,0.18513689700130379,0.11310234966148945,0.5098743267504489,0.44384303112313933,0.8023483365949119,0.306771417882529,"['election enumeration', 'paper ballot', 'regulation order', 'ballot envelope', 'staff member', 'the advance', 'order direction', 'advance polls', 'being', 'subsection lapses']"
+115,0.18531810766721044,0.11323763955342903,0.5098743267504489,0.44384303112313933,0.8023483365949119,0.306771417882529,"['polling date', 'compliance agreements', 'sequence number', 'powers duties', 'enumeration documents', 'officers deputy', 'identification document', 'identifier number', 'writ determine', 'normalization procedures']"
+116,0.1852576647097195,0.11319250697489039,0.5098743267504489,0.44384303112313933,0.8023483365949119,0.306771417882529,"['identification documents', 'officer deputy', 'accuracy testing', 'condominium unit', 'assistants duties', 'officers duties', 'information complaints', 'office staff', 'voter information', 'clerks duties']"
+117,0.1784313725490196,0.10906911705952857,0.49012567324955114,0.44384303112313933,0.8023483365949119,0.306771417882529,"['telephone number', 'election materials', 'office position', 'appointment name', 'power duty', 'the election', 'students residences', 'dwelling site', 'voting equipment', 'check mark']"
+118,0.17848970251716248,0.1091127098321343,0.49012567324955114,0.44384303112313933,0.8023483365949119,0.306771417882529,"['telephone numbers', 'time orders', 'appellants notice', 'agents candidate', 'election void', 'boundaries maps', 'judges certification', 'party candidate', 'living facility', 'candidates signature']"
+119,0.17872340425531916,0.10928742994395517,0.49012567324955114,0.44384303112313933,0.8023483365949119,0.306771417882529,"['table desk', 'living facilities', 'identifier numbers', 'any other', 'card poster', 'employees hours', 'employment contract', 'enumeration period', 'owner printer', 'confusion difficulty']"
+120,0.1787819253438114,0.10933119743692431,0.49012567324955114,0.44384303112313933,0.8023483365949119,0.306771417882529,"['elector information', 'advance plans', 'security precautions', 'support centres', 'opinion survey', 'weighting factors', 'how', 'while', 'plebiscite practices', 'declaratory relief']"
+121,0.1784313725490196,0.10906911705952857,0.49012567324955114,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['though', 'order staying', 'peace officer', 'broadcast print', 'voters eligibility', 'scrutineer present', 'irregularity failure', 'so', 'condominium corporation', 'supply vote']"
+122,0.1784313725490196,0.10906911705952857,0.49012567324955114,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['makes', 'writing number', 'persons agent', 'since', 'residence requirements', 'officers recommendations', 'expense claims', 'marking instrument', 'commencing', 'election advertising']"
+123,0.17914351095129127,0.10951239008792965,0.4919210053859964,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['officer registration', 'electors election', 'contracts agreements', 'list list', 'nomination day', 'officer election', 'incapacity absence', 'enforcement bailiffs', 'telephone fax', 'obligations liabilities']"
+124,0.18056918547595682,0.1104,0.4955116696588869,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['section 71b', 'polling hours', 'maintenance security', 'voting procedures', 'division polling', 'officers oath', 'interpreter peace', 'contact treatment', 'earnings loss', 'control organization']"
+125,0.18074656188605107,0.1105326391670004,0.4955116696588869,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['of polling', 'on polling', 'clause d', 'blackout period', 'electors list', 'of election', 'election day', 'advance polling', 'voting hours', 'court proceedings']"
+126,0.18074656188605107,0.1105326391670004,0.4955116696588869,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['action claim', 'section 16c', 'printing lists', 'contract restitution', 'election forms', 'voting secrecy', 'subdivision boundaries', 'tally sheets', 'election meetings', 'government advertising']"
+127,0.18074656188605107,0.1105326391670004,0.4955116696588869,0.4427645788336933,0.8023483365949119,0.3057419835943326,"['condominium building', 'officers initials', 'rule procedure', 'officers polling', 'officer poll', 'subsection 2d', 'officers poll', 'subsection 3d', 'home park', 'neither']"
+128,0.18068739770867429,0.11048839071257005,0.4955116696588869,0.44264507422402166,0.8023483365949119,0.3056280283265002,"['3d', '2d', 'sentenced', 'point capital', 'name voice', 'available', 'centres detention', 'located', 'internet', '8‑day']"
+129,0.1801040312093628,0.10996427153632393,0.49730700179533216,0.440150295222759,0.8023483365949119,0.3032544378698225,"['Election', 'Voters', 'Officers', 'Bill', 'ending on', 'are', 'nominated', 'clause c', 'was', 'give']"
+130,0.17745035233824472,0.10799220272904483,0.49730700179533216,0.4528101802757158,0.8356164383561644,0.31054545454545457,"['Ballot', 'did', 'have', 'clauses b', 'will', 'had', 'Chief', 'having', 'does', 'limitation logic']"
+131,0.17520556609740673,0.10633397312859885,0.49730700179533216,0.44805876180482684,0.8356164383561644,0.3060931899641577,"['Corrections', 'were', 'do', 'should', 'ought', 'would', 'work camps', 'may', 'submit', '1c']"
+132,0.1719962744489289,0.10397897897897898,0.49730700179533216,0.4427796435029708,0.8385518590998043,0.3008073008073008,"['Certificate', 'Electoral', 'whom', 'not', 'it', 'supervisory', 'who', 'there', 'could', 'remain']"
+133,0.1713578719455614,0.10351270553064275,0.49730700179533216,0.4414112799381921,0.8385518590998043,0.29954561342188046,"['Book', 'them', 'might', 'can', 'they', 'outer envelope', 'take', 'detention', 'advertise', 'i']"
+134,0.170304334460498,0.10274480712166172,0.49730700179533216,0.4391493722777351,0.8385518590998043,0.29746615758417216,"['he', 'required', 'show', 'remove', 'their', 'been', 'his', 'wishes', 'she', 'annual report']"
+135,0.17162120747778115,0.10347376201034737,0.5026929982046678,0.43995912110373014,0.8424657534246576,0.29771784232365145,"['Public', 'Her', 'her', 'anything', 'administrative assistant', 'prohibit', 'special warrant', 'elected', 'Local', 'need']"
+136,0.17223414036163037,0.10384331116038432,0.5044883303411131,0.4403575989782886,0.8434442270058709,0.2979605945385413,"['Health', 'Deputy', 'Education', 'possible judicial recount', '2nd election', 'Administration', 'Registrar', 'administrative penalty', 'himself', 'expulsion']"
+137,0.171760391198044,0.10349907918968693,0.5044883303411131,0.4393476044852192,0.8434442270058709,0.2970365265334252,"['Office', 'Member', 'Clerk', 'Speaker', 'electoral process', 'maintaining', 'Saturday', 'relating', 'cannot', 'declared']"
+138,0.17231897341888178,0.10382916053019146,0.5062836624775583,0.4393476044852192,0.8434442270058709,0.2970365265334252,"['Peace', 'Commissioner', 'Clerks', 'Conflicts', 'Government', 'Voter', 'Referendum', 'Municipal', 'Committee', 'Friday']"
+139,0.17184643510054842,0.10348623853211009,0.5062836624775583,0.44088482074752094,0.8483365949119374,0.29783579525936105,"['Return', 'Appeal', 'Schedule', 'House', 'Tuesday', 'Wednesday', 'Legislative', 'apply', 'post‑', 'Special']"
+140,0.17163724893487523,0.10333455478197141,0.5062836624775583,0.4424688849377698,0.8522504892367906,0.2987993138936535,"['Legislature', 'Executive', 'President', 'Standing', 'General', 'allow', 'Financial', 'Youth', 'describing', 'Freedom']"
+141,0.17399211882388602,0.10466812545587163,0.5152603231597845,0.4465822784810126,0.863013698630137,0.3012295081967213,"['provides', 'respecting', 'Parliament', 'Senate', 'Assembly', 'Lieutenant', 'Bench', 'Canada', 'Gazette', 'Governor']"
+142,0.17399211882388602,0.10466812545587163,0.5152603231597845,0.4465822784810126,0.863013698630137,0.3012295081967213,"['Ballots', 'Service', 'Rules', 'Procedure', 'Offices', 'Justice', 'Disclosure', 'Compensation', 'Board', 'Affidavit']"
+143,0.17388670099969708,0.10459183673469388,0.5152603231597845,0.4468623481781375,0.8639921722113503,0.30136518771331056,"['Powers', 'Council', 'Official', 'Guidance', 'based', 'Poll', 'Thursday', 'Income', 'disqualified', 'Finance']"
+144,0.17367624810892587,0.1044395924308588,0.5152603231597845,0.44691607684529827,0.8649706457925636,0.3012951601908657,"['Printer', 'Information', 'destroyed', 'include', '1b', 'Archives', 'stating', 'Protection', 'f', 'Fund']"
+145,0.1734138972809668,0.10424990918997458,0.5152603231597845,0.4463519313304721,0.8649706457925636,0.30078257910854034,"['Divisions', 'liberty', 'protect', 'voted', 'refunded', 'cease', 'thinks', 'notify', '19', 'taken']"
+146,0.17310012062726174,0.10402319681043856,0.5152603231597845,0.4456768338795059,0.8649706457925636,0.300169779286927,"['test', 'announce', 'dismissed', 'disallow', 'prepare', 'compiling', 'induce', 'suspend', 'receiving', 'send']"
+147,0.17247596153846154,0.1035727174305305,0.5152603231597845,0.444332746921337,0.8649706457925636,0.2989516401758539,"['require', 'maintain', 'resign', 'published', 'write', 'appoint', 'retain', 'advise', 'complete', 'disclose']"
+148,0.17195925704014378,0.10320028766630708,0.5152603231597845,0.44321885184256704,0.8649706457925636,0.29794405123019885,"['post', 'enter', 'decide', 'confirm', 'limit', 'declare', 'modify', 'lay', 'granting', 'establish']"
+149,0.17165071770334928,0.10297811266594904,0.5152603231597845,0.44355444305381736,0.8669275929549902,0.2980154725866129,"['defaces', 'adjourn', 'set', 'submitted', 'instituted', 'promoting', 'draw', 'serve', 'prevails', 'Minister']"
+150,0.1714456391875747,0.1028305266929416,0.5152603231597845,0.44311077769442364,0.8669275929549902,0.29761504870675176,"['preparing', 'returned', 'open', 'employed', 'endorse', 'assist', 'utilize', 'amended', 'completed', 'served']"
+151,0.1707825052067837,0.10235378031383738,0.5152603231597845,0.44167497507477566,0.8669275929549902,0.2963210702341137,"['investigate', 'inform', 'prepared', 'paid', 'contacted', 'proceed', 'requested', 'filed', 'made', 'visited']"
+152,0.17068093963722866,0.1022808267997149,0.5152603231597845,0.44145490782262087,0.8669275929549902,0.29612299465240643,"['terminated', 'certified', 'adjourned', 'operate', 'dissolved', 'consult', 'assign', 'dismiss', 'effected', 'determine']"
+153,0.1704781704781705,0.10213523131672597,0.5152603231597845,0.4410154305624689,0.8669275929549902,0.29572763684913217,"['contain', 'delegate', 'selected', 'removed', 'consider', 'defined', 'delivered', 'perform', 'neglects', 'reached']"
+154,0.17037696645888986,0.10206258890469416,0.5152603231597845,0.4407960199004975,0.8669275929549902,0.29553035356904606,"['remains', 'includes', 'requiring', 'deliver', 'reaches', 'considering', 'forthwith', 'associated', 'refuse', 'desired']"
+155,0.17012448132780084,0.10188143414980476,0.5152603231597845,0.440248447204969,0.8669275929549902,0.29503829503829504,"['included', 'inquiring', 'attend', 'receives', 'directed', 'specify', 'deemed', 'assuming', '1a', 'reappointed']"
+156,0.16962174940898345,0.10152104704633888,0.5152603231597845,0.43915737298636925,0.8669275929549902,0.2940590773315632,"['signed', 'commenced', 'considers', 'retained', 'occurred', 'marked', 'ensure', 'recovered', 'satisfy', 'opposing']"
+157,0.16937149601652404,0.10134180790960452,0.5152603231597845,0.4386138613861386,0.8669275929549902,0.2935719019218025,"['situated', 'see', 'expires', 'withdraw', 'prohibited', 'expired', 'entered', 'commence', 'given', 'recorded']"
+158,0.16877389003234342,0.10091420534458509,0.5152603231597845,0.4373149062191511,0.8669275929549902,0.29240924092409243,"['declares', 'completes', 'issued', 'leave', 'transmitted', 'convicted', 'contained', 'indicate', 'used', 'committed']"
+159,0.1683284457478006,0.10059586400280407,0.5152603231597845,0.4368382171878848,0.8679060665362035,0.2918723264231655,"['produced', 'revised', 'withdrawn', 'inspect', 'secured', 'pay', 'limited', 'ordered', 'fixed', 'allowed']"
+160,0.1676401869158879,0.10010463899546565,0.5152603231597845,0.43533742331288344,0.8679060665362035,0.29053390108090404,"['permitted', 'authorized', 'brought', 'received', 'create', 'screened', 'permit', 'challenged', 'established', 'placed']"
+161,0.1674934344908083,0.1,0.5152603231597845,0.4350171652770966,0.8679060665362035,0.29024869109947643,"['founded', 'obliterated', 'instruct', 'contravened', 'imposed', 'contravening', 'appear', 'updated', 'determines', 'inserted']"
+162,0.1671520093185789,0.09975669099756691,0.5152603231597845,0.43427172582619344,0.8679060665362035,0.2895853738165198,"['showing', 'applied', 'becomes', 'referred', 'collected', 'doubts', 'surrender', 'heard', 'accompanied', 'disposed']"
+163,0.16705471478463332,0.09968739145536645,0.5152603231597845,0.43405921213604115,0.8679060665362035,0.2893964110929853,"['replaced', 'strike', 'procuring', 'intervene', 'puts', 'dealt', 'found', 'fit', 'resolved', 'canvass']"
+164,0.16686046511627908,0.09954908081859175,0.5152603231597845,0.434123686140308,0.8688845401174168,0.28934506353861195,"['charged', 'modified', 'conclude', 'posted', 'displayed', 'compensated', 'imprisoned', 'treated', 'listed', 'stated']"
+165,0.16656993615786422,0.0993423329871928,0.5152603231597845,0.43348791798877223,0.8688845401174168,0.288780487804878,"['shown', 'operated', 'named', 'specified', 'combined', 'connected', 'performed', 'applies', 'spoiled', 'awarded']"
+166,0.1663768115942029,0.09920497753197373,0.5152603231597845,0.4330651060716898,0.8688845401174168,0.28840532640467686,"['represented', 'broken', 'canvassing', 'according', 'assisted', 'addressed', 'complied', 'raised', 'residing', 'sworn']"
+167,0.1658959537572254,0.09886324491904926,0.5152603231597845,0.4329846752614936,0.8708414872798435,0.2881191324053092,"['witnessed', 'interferes', 'acknowledged', 'enumerate', 'granted', 'attached', 'administered', 'sealed', 'prescribed', 'drawn']"
+168,0.16584802080323605,0.09882920110192837,0.5152603231597845,0.43287937743190663,0.8708414872798435,0.28802588996763756,"['opened', 'ends', 'receive', 'working', 'continued', 'consents', 'appearing', 'produces', 'entering', 'reviewed']"
+169,0.16584802080323605,0.09882920110192837,0.5152603231597845,0.43287937743190663,0.8708414872798435,0.28802588996763756,"['suspended', 'sets', 'announced', 'operates', 'withdraws', 'omitted', 'consenting', 'occurs', 'tested', 'sponsored']"
+170,0.16570438799076212,0.09872721018231854,0.5152603231597845,0.43256379100850545,0.8708414872798435,0.28774652440995796,"['enforced', 'seen', 'expelled', 'travels', 'defeated', 'rejected', 'comply', 'setting', 'counted', 'conducting']"
+171,0.16532258064516128,0.09845626072041166,0.5152603231597845,0.43172447247150125,0.8708414872798435,0.28700419219606577,"['designated', 'enters', 'appears', 'deposited', 'lie', 'known', 'called', 'sought', 'declined', 'lost']"
+172,0.16503737780333524,0.09825402259500171,0.5152603231597845,0.43109711794623395,0.8708414872798435,0.28644995172191823,"['lies', 'numbered', 'related', 'involved', 'enrolled', 'closed', 'organized', 'forwarded', 'carrying', 'relates']"
+173,0.16470588235294115,0.09801912568306011,0.5152603231597845,0.4303675048355899,0.8708414872798435,0.28580603725112397,"['carry', 'participate', 'responded', 'arising', 'resulting', 'exempted', 'participated', 'pertaining', 'already', 'construed']"
+174,0.1646586345381526,0.09798566063502902,0.5152603231597845,0.43026347594875514,0.8708414872798435,0.2857142857142857,"['resides', 'disposing', 'proved', 'occasioned', 'solicits', 'agrees', 'wear', 'represent', 'sent', 'corresponding']"
+175,0.16446991404011463,0.09785202863961814,0.5152603231597845,0.429847862835064,0.8708414872798435,0.2853478679063802,"['delayed', 'damaged', 'proceeded', 'agree', 'accepted', 'deal', 'blocked', 'furnished', 'communicate', 'renegotiate']"
+176,0.16442280148954455,0.0978186775732788,0.5152603231597845,0.42974408498309996,0.8708414872798435,0.28525641025641024,"['communicating', 'continue', 'applying', 'notified', 'complying', 'maintained', 'comes', 'respond', 'meet', 'complies']"
+177,0.1642346208869814,0.0976855003403676,0.5152603231597845,0.43029425952725514,0.87279843444227,0.2855313700384123,"['comprising', 'takes', 'coming', 'consisting', 'enabling', 'left', 'arose', 'described', 'tendered', 'enjoys']"
+178,0.1641406920217329,0.09761904761904762,0.5152603231597845,0.4300867888138862,0.87279843444227,0.2853486884197057,"['relied', 'tried', 'done', 'arrested', 'discontinued', 'entitled', 'added', 'engaged', 'vouched', 'folded']"
+179,0.16395315624107398,0.09748641304347826,0.5152603231597845,0.42967244701348745,0.87279843444227,0.28498402555910546,"['permits', 'ordering', 'revising', 'advising', 'enable', 'liable', 'dissolve', 'amend', 'examine', 'concerning']"
+180,0.16381278538812785,0.09738717339667459,0.5152603231597845,0.4293622141997593,0.87279843444227,0.2847111394829237,"['forward', 'took', 'certify', 'declaring', 'prove', 'become', 'performs', 'advised', 'establishes', 'initial']"
+181,0.16367265469061876,0.09728813559322035,0.5152603231597845,0.429052429052429,0.87279843444227,0.2844387755102041,"['affected', 'recognized', 'follows', 'identified', 'executed', 'containing', 'recruiting', 'verifying', 'defray', 'distribute']"
+182,0.16357936734112283,0.09722222222222222,0.5152603231597845,0.4288461538461538,0.87279843444227,0.28425748884639895,"['print', 'revise', 'verify', 'refer', 'kept', 'suit', 'bring', 'recover', 'hold', 'accompany']"
+183,0.16343963553530752,0.09712351945854483,0.5152603231597845,0.4285371126591401,0.87279843444227,0.2839859917223814,"['carried', 'constituting', 'offer', 'believe', 'spend', 'procure', 'exceeding', 'automated', 'contravenes', 'translate']"
+184,0.16330014224751066,0.09702501690331305,0.5152603231597845,0.42822851656265004,0.87279843444227,0.2837150127226463,"['displays', 'compile', 'exceed', 'travel', 'determining', 'publishes', 'keep', 'authorize', 'ensuring', 'indicating']"
+185,0.163207278930907,0.09695945945945945,0.5152603231597845,0.4280230326295585,0.87279843444227,0.2835346471710108,"['committing', 'prosecute', 'know', 'believes', 'find', 'representing', 'collect', 'induced', 'commit', 'capable']"
+186,0.16302186878727634,0.09682860998650472,0.5152603231597845,0.42761265580057534,0.87279843444227,0.2831746031746032,"['commits', 'vary', 'represents', 'finds', 'governing', 'subdivide', 'prevent', 'reveal', 'admit', 'obtain']"
+187,0.16283687943262412,0.09669811320754718,0.5152603231597845,0.42720306513409967,0.87279843444227,0.2828154724159797,"['certifying', 'issues', 'announces', 'contains', 'approves', 'refuses', 'sees', 'recommends', 'own', 'fill']"
+188,0.1627445421037709,0.09663299663299663,0.5152603231597845,0.4274772618477741,0.8737769080234834,0.2829531051964512,"['inflict', 'tracing', 'redefine', 'pending', 'Treasury', 'derived', 'direct', 'affix', 'suspects', 'cleaning']"
+189,0.1624221844934918,0.09640577762848505,0.5152603231597845,0.42676224611708474,0.8737769080234834,0.28232690483717987,"['regarding', 'providing', 'transmitting', 'concluding', 'claiming', 'examining', 'authorizing', 'withhold', 'endorsed', 'signing']"
+190,0.16223855285472016,0.09627641730962765,0.5152603231597845,0.42635473860109807,0.8737769080234834,0.28197031891379853,"['visiting', 'eligible', 'relate', 'indicates', 'requesting', 'enacted', 'discontinue', 'effecting', 'states', 'breaking']"
+191,0.1621927098050297,0.09624413145539906,0.5152603231597845,0.4262529832935561,0.8737769080234834,0.28188131313131315,"['doing', 'desiring', 'disqualify', 'directing', 'created', 'constitutes', 'practises', 'accept', 'followed', 'preceding']"
+192,0.1621927098050297,0.09624413145539906,0.5152603231597845,0.4262529832935561,0.8737769080234834,0.28188131313131315,"['soliciting', 'admits', 'surrounding', 'originating', 'abbreviated', 'arranged', 'existing', 'adapt', 'materially', 'extend']"
+193,0.16205533596837945,0.09614740368509213,0.5152603231597845,0.4259480085857381,0.8737769080234834,0.2816146326080101,"['preventing', 'displaying', 'exercising', 'influencing', 'preserving', 'announcing', 'casting', 'performing', 'affecting', 'producing']"
+194,0.16200959638724247,0.09611520428667113,0.5152603231597845,0.4258464473056748,0.8737769080234834,0.28152585119798235,"['inducing', 'obtaining', 'submitting', 'updating', 'sealing', 'deriving', 'placing', 'agreeing', 'forfeits', 'prefixes']"
+195,0.16191819464033852,0.09605087014725569,0.5152603231597845,0.42564346997140134,0.8737769080234834,0.28134845620667925,"['ceases', 'suffixes', 'compel', 'disclaim', 'mutilates', 'instituting', 'expected', 'correlating', 'gated', 'unfolding']"
+196,0.16164460715291468,0.09585838343353373,0.5152603231597845,0.42503569728700624,0.8737769080234834,0.2808176100628931,"['immediately', 'presents', 'expressing', 'lease', 'nearly', 'reconciling', 'unreasonable', 'interlocking', 'distinguishing', 'experience']"
+197,0.16060436485730273,0.0951276102088167,0.5152603231597845,0.42272189349112427,0.8737769080234834,0.27880112394630036,"['aid', 'necessary', 'fails', 'informed', 'notes', 'asked', 'more', 'incomplete', 'payable', 'appropriate']"
+198,0.16055944055944057,0.0950960901259112,0.5152603231597845,0.42262186464742074,0.8737769080234834,0.2787141073657928,"['Secured', 'Contributions', 'general', 'constitute', 'refused', 'attends', 'excusable', 'residential', 'caused', 'intends']"
+199,0.1596218020022247,0.09443896018427114,0.5152603231597845,0.42628356099858694,0.8855185909980431,0.2807071960297767,"['further', 'administrative', 'corrupt', 'reasonable', 'uncertain', 'private', 'satisfactory', 'same', 'Conditional', '1']"
+200,0.15926748057713652,0.09419100754840827,0.5152603231597845,0.42548189938881054,0.8855185909980431,0.28001237623762376,"['free', 'suitable', 'previous', 'full', 'efficient', 'next', 'final', 'additional', 'last', 'wish']"
+201,0.15913501524812865,0.0940983606557377,0.5152603231597845,0.4251820530890298,0.8855185909980431,0.2797527047913447,"['special', 'effective', 'inconsistent', 'adequate', 'possible', 'immediate', 'valid', 'responsible', 'near', 'convenient']"
+202,0.1592920353982301,0.09414841451454724,0.5170556552962298,0.42616033755274263,0.8894324853228963,0.28020961775585695,"['unaffected', 'such', 'various', 'unofficial', 'unable', 'judicial', 'conversant', 'knowledgeable', 'remote', '2nd']"
+203,0.15924799557644456,0.09411764705882353,0.5170556552962298,0.426060464026248,0.8894324853228963,0.28012326656394454,"['proper', 'outer', 'personal', 'adverse', 'unauthorized', 'significant', 'legal', 'conspicuous', 'actual', 'original']"
+204,0.15915998894722297,0.09405617243631613,0.5170556552962298,0.42586085734364015,0.8894324853228963,0.27995072374499536,"['financial', 'good', 'important', 'educational', 'overall', 'ongoing', 'undue', 'most', 'better', 'respective']"
+205,0.15902816123688568,0.09396411092985318,0.5170556552962298,0.425561797752809,0.8894324853228963,0.2796923076923077,"['certain', 'valuable', 'usual', 'unopened', 'new', 'unused', 'middle', 'qualified', 'preliminary', 'relative']"
+206,0.1588527302813017,0.093841642228739,0.5170556552962298,0.4251637043966323,0.8894324853228963,0.2793484941610326,"['ordinarily', 'particular', 'ordinary', 'separate', 'guilty', 'unintentional', 'indictable', 'closest', 'indirect', 'constructive']"
+207,0.15876515986769568,0.09378052751546727,0.5170556552962298,0.42496493688639553,0.8894324853228963,0.27917690417690416,"['door‑', 'well', 'acceptable', 'incidental', 'independent', 'unexpended', 'largest', 'substitutional', 'alphabetical', 'fictitious']"
+208,0.15918479757642523,0.09401431359791802,0.518850987432675,0.42513431441252053,0.8904109589041096,0.27922675667382635,"['practicable', 'exclusive', '10th', 'retroactive', '5th', 'faithful', 'relevant', 'consecutive', 'temporary', 'technical']"
+209,0.15887850467289721,0.09380071405387862,0.518850987432675,0.42630597014925364,0.8943248532289628,0.2798530312308634,"['secure', 'satisfied', 'Canadian', 'greater', '3rd', 'correct', 'frivolous', 'insufficient', 'postal', 'lawful']"
+210,0.15874759681406206,0.0937094682230869,0.518850987432675,0.4264740153810301,0.8953033268101761,0.27990211073722854,"['ineligible', 'former', 'identical', 'successful', '28th', 'statistical', 'Indian', 'white', 'geospatial', 'false']"
+211,0.15894765689229925,0.09379042690815007,0.5206463195691203,0.42661083973016983,0.8972602739726028,0.27982911199267624,"['provincial', 'likely', 'extended', 'fair', 'alleged', 'criminal', 'demographic', 'federal', 'reproducing', 'electronic']"
+212,0.15886058614078333,0.09372979961215255,0.5206463195691203,0.4264124622180889,0.8972602739726028,0.27965843244891736,"['earlier', 'unnecessary', 'recognizable', 'clearly', 'obvious', 'resumes', 'annotate', 'civil', 'Crown', 'led']"
+213,0.1578660860097986,0.0930381777350016,0.5206463195691203,0.4263133426313343,0.8972602739726028,0.27957317073170734,"['‑elections', 'detention centres', 'of the', 'absent', 'capital', 'some', 'the electoral', 'fax internet', 'advertising posters', 'prescribed form']"
+214,0.16021798365122614,0.09444265981368455,0.5278276481149012,0.4262142691145712,0.8972602739726028,0.27948796098750384,"['corrupt practices', 'judicial recount', 'an electoral', 'aside', 'organization retention', 'just', 'necessary modifications', 'official count', 'ordinary practice', 'inapplicable']"
+215,0.16080675933496866,0.09479434447300772,0.5296229802513465,0.4262142691145712,0.8972602739726028,0.27948796098750384,"['alphabetical order', 'a Provincial', 'privately', 'reasonable effort', 'prescribed place', 'independently', 'Indian band', 'private dwelling', 'Provincial corporation', 'live call']"
+216,0.1617206643071059,0.09531450577663671,0.533213644524237,0.42581843510564205,0.8972602739726028,0.2791476407914764,"['other manner', 'indictable offence', 'faithful performance', 'registered candidate', 'annotation', 'official candidate', 'private school', 'next sitting', 'other candidate', 'only']"
+217,0.1617206643071059,0.09531450577663671,0.533213644524237,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['unofficial count', 'prior', 'prescribed forms', 'political party', 'of every', 'remote area', 'candidates official', 'original place', 'printed ballots', 'relevant legislation']"
+218,0.16180877145192046,0.0953757225433526,0.533213644524237,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['political partys', 'reasonable time', 'entire calendar', 'alleged contravention', 'residential unit', 'alleged offence', 'other person', 'other right', 'previous year', 'fiscal year']"
+219,0.16204458945078848,0.09548221723806473,0.5350089766606823,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['in the', 'official agents', 'administrative assistants', 'prescribed manner', 'supportive living', 'in each', 'further recount', 'new polling', 'other place', 'valid nomination']"
+220,0.16213275299238303,0.0955434434113498,0.5350089766606823,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['electronic mail', 'prospective contracting', 'judicial centre', 'additional polling', 'following circumstances', 'same manner', 'free access', 'right remedy', 'final day', 'within a']"
+221,0.1622210125204137,0.09560474815527752,0.5350089766606823,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['previous ballot', 'personal information', 'next session', 'final determination', 'official association', '3rd day', 'efficient conduct', 'additional copies', 'usual place', 'same polling']"
+222,0.16285403050108932,0.09598715890850722,0.5368043087971275,0.42552204176334113,0.8972602739726028,0.27889294403892945,"['public interest', 'other election', 'prescribed identification', 'same rules', 'original act', 'valid votes', 'Indian reserve', 'public meeting', 'necessary forms', 'supervisory deputy']"
+223,0.16185286103542235,0.09540636042402827,0.533213644524237,0.42542333565298074,0.8972602739726028,0.27880814837336576,"['appropriate columns', 'brief form', 'sufficient number', 'ordinary residences', 'ordinary appeal', 'same prohibitions', 'the poll', 'other law', 'accordingly', 'appropriate column']"
+224,0.16143986910280883,0.09517684887459807,0.5314183123877917,0.42542333565298074,0.8972602739726028,0.27880814837336576,"['same way', 'effective conduct', 'last name', 'appropriate place', 'independent candidate', 'previous rejection', 'proper completion', '5th day', 'public provide', 'proper purposes']"
+225,0.16152796725784446,0.09523809523809523,0.5314183123877917,0.42542333565298074,0.8972602739726028,0.27880814837336576,"['other case', '10th day', 'corresponding offence', 'appropriate forms', 'satisfactory accounting', 'public office', 'closed container', 'free exercise', 'full age', 'same subdivision']"
+226,0.16152796725784446,0.09523809523809523,0.5314183123877917,0.42542333565298074,0.8972602739726028,0.27880814837336576,"['corrupt intent', 'original 8‑', 'authorized election', 'conspicuous location', 'suitable building', 'same election', 'full week', 'legal name', 'undue return', 'general plebiscite']"
+227,0.16093835242771415,0.09488581537471856,0.5296229802513465,0.4252260607465802,0.8972602739726028,0.2786387116378001,"['other location', 'fictitious person', 'particularly', 'extended period', 'then', 'continuously', 'particular candidate', 'generally', 'last elector', '2nd day']"
+228,0.1616602949208083,0.09533011272141707,0.5314183123877917,0.4252260607465802,0.8972602739726028,0.2786387116378001,"['other candidates', 'administrative penalties', 'prefolded ballot', 'other places', 'political parties', 'general elections', 'recognizable initials', 'public body', 'electoral jurisdictions', 'reasonable conditions']"
+229,0.16124624214266192,0.09509993552546744,0.5296229802513465,0.4255910987482614,0.898238747553816,0.27885783718104495,"['correctional institutions', 'various envelopes', 'public building', 'qualified elector', 'other circumstances', 'other annotation', 'related matters', 'other bulletins', 'permanent electors', 'more candidates']"
+230,0.16120218579234974,0.09506928778601353,0.5296229802513465,0.4254924681344148,0.898238747553816,0.27877315517764956,"['constantly', 'formal judgment', 'other documents', 'other information', 'legal proceeding', 'other standards', 'first elector', 'more days', 'other duties', 'soon']"
+231,0.16120218579234974,0.09506928778601353,0.5296229802513465,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['other document', 'actual cost', 'suitable place', 'ordinary place', 'physical disability', 'additional time', 'accessible voting', 'current address', 'adverse finding', 'various charges']"
+232,0.16124624214266192,0.09509993552546744,0.5296229802513465,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['material facts', 'together', 'individually', 'once', 'other media', 'other officer', 'geographic information', 'regardless', 'white space', 'circular card']"
+233,0.16183706943685075,0.09545307965172525,0.5314183123877917,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['reasonable efforts', 'electoral divisions', 'responsible person', 'unauthorized use', 'false statement', 'numbered polling', 'respective percentages', 'marked ballot', 'postal money', 'qualified person']"
+234,0.16192560175054707,0.09551468215553405,0.5314183123877917,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['false declaration', 'prescribed oath', 'necessary matter', 'other papers', 'prescribed affidavit', 'relevant documentation', 'new ballot', 'significant effect', 'reasonable fee', 'reproducing any']"
+235,0.1619699042407661,0.09554551323434474,0.5314183123877917,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['other paper', 'different polling', 'largest number', 'current residence', 'a disproportionate', 'prescribed Statement', 'other facilities', 'unofficial results', 'electoral district', 'such contracts']"
+236,0.1620142309797482,0.09557636422344204,0.5314183123877917,0.4256600277906438,0.8992172211350293,0.2788228155339806,"['reasonable steps', 'undue election', 'other decision', 'false oath', 'new election', 'official character', 'other staff', 'general evidence', 'reasonable precautions', 'other security']"
+237,0.16192560175054707,0.09551468215553405,0.5314183123877917,0.4254629629629629,0.8992172211350293,0.27865372953305034,"['2nd enumerator', 'conspicuous sign', 'mobile home', 'corresponding number', 'same force', 'full name', 'fiduciary', 'similar place', 'multiple dwelling', 's48']"
+238,0.16214735688852366,0.09566903684550743,0.5314183123877917,0.42536449895857437,0.8992172211350293,0.2785692634131555,"['within the', 'for the', 'efficiently', 'the registration', 'in an', 'of any', 'officers electoral', 'particular polling', 'securely', 'properly']"
+239,0.16223622910386407,0.09573091849935317,0.5314183123877917,0.4252660805182786,0.8992172211350293,0.2784848484848485,"['on the', 'of an', 'from any', 'as the', 'entire', 'to some', 'serving', 'in that', 'previously', 'reasonably']"
+240,0.16228070175438597,0.09576188935619541,0.5314183123877917,0.4251677076104557,0.8992172211350293,0.27840048470160556,"['at an', 'to the', 'of a', 'between the', 'as a', 'to a', 'fully', '28th day', 'sooner', 'urgently']"
+241,0.16263736263736261,0.09601037950048653,0.5314183123877917,0.42506938020351526,0.8992172211350293,0.2783161720169594,"['at the', 'to each', 'by the', 'without the', 'under the', 'for that', 'accurately', 'actually', 'officer sufficient', 'otherwise']"
+242,0.16299559471365638,0.09626016260162602,0.5314183123877917,0.42497109826589596,0.8992172211350293,0.27823191038449896,"['at a', 'before the', 'during an', 'of each', 'with a', 'large envelope', 'indirectly', 'impartially', 'safely', 'also']"
+243,0.16299559471365638,0.09626016260162602,0.5314183123877917,0.4248728617660656,0.8992172211350293,0.27814769975786924,"['of all', 'admissible', 'unduly', 'independent authority', 'intentionally', 'first', 'prominently', 'incorrectly', 'wilfully', 'briefly']"
+244,0.16354625550660792,0.09658536585365854,0.533213644524237,0.4247746706725214,0.8992172211350293,0.27806354009077155,"['directly', 'Alberta Gazette', 'particular situation', 'educational institution', 'herself', 'personally', 'serially', 's17', 'interim supply', 'expressly']"
+245,0.16740331491712707,0.098922624877571,0.5439856373429084,0.42906415267877673,0.9129158512720157,0.28043282236248873,"['advisable', 'Legislative Assembly', 'Chief Electoral', 'certified list', 'Commissioners', 'Voter Template', '3', 'accessibility', 'storage', '2']"
+246,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.42906415267877673,0.9129158512720157,0.28043282236248873,"['the Chief', 'Election Commissioners', 'Executive Council', 'Alberta Senate', '5‑', 'Lieutenant Governor', 'Secure Special', 'Canada Elections', 's19', '4122c']"
+247,0.1693414499169895,0.10009813542688911,0.5493716337522442,0.42906415267877673,0.9129158512720157,0.28043282236248873,"['Peace Officer', 'Electoral Divisions', 'Special Ballots', 'Wednesday Thursday', 'Tuesday Wednesday', 'the Alberta', 'Official Results', 'Alberta Personal', 'Corrections Act', 'the Financial']"
+248,0.1687482653344435,0.09980302035456336,0.5457809694793537,0.42906415267877673,0.9129158512720157,0.28043282236248873,"['Practices', 'Poll Book', 'Secured Special', 'Thursday Friday', 'Electoral Officer', 'Treasury Board', 'election under', 'Justice Act', 'Municipal Government', 'Provincial Court']"
+249,0.16884198833657316,0.09986859395532194,0.5457809694793537,0.42942528735632174,0.913894324853229,0.28064903846153844,"['Electoral Officers', 'Provincial Offences', 'Senate Election', 'Referendum Act', 'Alberta Rules', 'Contributions Disclosure', 'Conditional Release', 'Interest Act', 'Election Act', 'Procedure Act']"
+250,0.1689827682045581,0.09996711608023677,0.5457809694793537,0.42978625603309584,0.9148727984344422,0.2808651246620607,"['Public Service', 'mean charter', 'Deputy Chief', 'Elections Alberta', 'Legislative Offices', 'Health Information', 'Act Canada', 'Public Sector', 'Government Organization', 'Education Act']"
+251,0.1689827682045581,0.09996711608023677,0.5457809694793537,0.4315886134067952,0.9197651663405088,0.2819436112777445,"['the Standing', 'party constituency', 'Indian Act', 'Financial Administration', 'Public Inquiries', 'Metis Settlements', 'Youth Criminal', 'Income Tax', 'Local Authorities', 'Election Finances']"
+252,0.1693973896139961,0.10019710906701708,0.547576301615799,0.4328289775332416,0.923679060665362,0.28263473053892213,"['4', 'Youth Justice', 'Queens Bench', 'Provincial Archives', 'General Revenue', 'Metis', 'Privacy Act', 'Compensation Transparency', 'serial', 's15']"
+253,0.16916250693288964,0.10003279763857002,0.547576301615799,0.43462331119761854,0.9285714285714286,0.2837070254110613,"['8', '5', 'adjacent electoral division', 'the relevant electoral', 'ordinary civil appeal', '7', '15', 'Queens', 'senior administrative officer', '12']"
+254,0.1695290858725762,0.10022928267278088,0.5493716337522442,0.4360558224662549,0.9324853228962818,0.28456255598686175,"['ordinary civil matter', '18', 'stand‑', 'ordinary civil action', '20', '14', '16', '10', '39', '30‑']"
+255,0.16924778761061945,0.10003269042170644,0.5493716337522442,0.43829981718464356,0.9383561643835616,0.2859272510435301,"['30', '31', '35', '32', 'fraudulent', '48', '61', 'headquarters', '128', 'barrier‑']"
+256,0.1698008849557522,0.10035959463877084,0.5511669658886894,0.43865661411925977,0.9393346379647749,0.28614008941877794,"['1d1', 'after the', 'to any', 'subsection 5av', 'subsection 3bi', '37', '21', '46', '9', '29']"
+257,0.16994187655687792,0.10045811518324607,0.5511669658886894,0.43865661411925977,0.9393346379647749,0.28614008941877794,"['for a', 'opposite the', '11', '116', '45', '47', '56', '40', '57', '142']"
+258,0.16989485334809076,0.10042525351651946,0.5511669658886894,0.43901324805847414,0.9403131115459883,0.2863528009535161,"['of that', 'with that', 'issue of', '147', '138', '114', '148', '131', '132', '133']"
+259,0.1698008849557522,0.10035959463877084,0.5511669658886894,0.4397260273972602,0.9422700587084148,0.28677784395473493,"['146', '153', '154', '155', '178', '68', '1182c1', '111', '2c', '64']"
+260,0.16970702045328911,0.10029402156158118,0.5511669658886894,0.44043815609310816,0.9442270058708415,0.28720238095238093,"['185', '190', '195', '187', '151', '1784e', '95', '1381b', '144', '1421']"
+261,0.16966012710693562,0.10026126714565643,0.5511669658886894,0.44079397672826826,0.9452054794520548,0.28741445998214815,"['93', '96', '1782', '1481', '1533', '1531', '412', '921', '952', '3ai1']"
+262,0.1695196024295969,0.100163132137031,0.5511669658886894,0.4418604651162791,0.9481409001956947,0.2880499405469679,"['951', '1784', '1811', '431', '1251', '1411', '900', '715', '1537', '441']"
+263,0.1695196024295969,0.100163132137031,0.5511669658886894,0.4418604651162791,0.9481409001956947,0.2880499405469679,"['campaign workers', 'financial officer', 'civil appeal', 'relevant electoral', 'administrative officer', 'civil action', 'civil matter', '118', 'approved proposal', '152']"
+264,0.16970702045328911,0.10029402156158118,0.5511669658886894,0.4418604651162791,0.9481409001956947,0.2880499405469679,"['returning officers', 'the registered', 'presiding judge', '191', '112', 'the returning', '432', '181', 'technical contravention', '197']"
+265,0.1703068841581421,0.10065359477124183,0.5529622980251346,0.4418604651162791,0.9481409001956947,0.2880499405469679,"['posted notices', 'elected candidate', 'the approved', 'make application', 'registered party', 'assigned residence', '1791', '1062', 'any computer‑', '104']"
+266,0.1698008849557522,0.10035959463877084,0.5511669658886894,0.4418604651162791,0.9481409001956947,0.2880499405469679,"['following manner', 'assigned polling', 'sealed ballot', 'a written', 'following bases', 'required envelope', 'finding determination', 'required enumeration', 'written order', 'following hours']"
+267,0.1698008849557522,0.10035959463877084,0.5511669658886894,0.4422156371096421,0.949119373776908,0.28826151560178304,"['required affidavit', 'assigned residences', 'written report', 'written request', 'following methods', 'own name', '1489', 'required period', 'computer‑based', '351']"
+268,0.16984785615491013,0.10039241334205364,0.5511669658886894,0.44257064721969,0.9500978473581213,0.2884729649435532,"['a registered', 'folded ballot', 'abbreviated form', '302', 'required declaration', 'following statements', 'requesting access', 'following information', 'hiring policy', 'certified results']"
+269,0.16989485334809076,0.10042525351651946,0.5511669658886894,0.44246981089086357,0.9500978473581213,0.2883872883872884,"['arrested person', 'given name', 'mitigating factors', 'signed declaration', 'missing ballots', 'following persons', 'written notice', 'required return', 'constitutes proof', '500']"
+270,0.1699889258028793,0.10049099836333879,0.5511669658886894,0.44246981089086357,0.9500978473581213,0.2883872883872884,"['practises intimidation', 'contravening subsection', 'building condominium', 'contravenes subsection', 'governing secrecy', 'following nomination', 'degrees prefixes', 'provide polling', 'notices demands', 'contains findings']"
+271,0.17049543315804042,0.10078534031413612,0.5529622980251346,0.44282460136674257,0.9510763209393346,0.28859857482185275,"['party affiliation', 'containing ballots', 'using tally', 'including loss', 'including emergency', '150', 'provided mark', '1333', '75', '604']"
+272,0.17054263565891473,0.10081833060556465,0.5529622980251346,0.44282460136674257,0.9510763209393346,0.28859857482185275,"['registered candidates', 'registered nomination', 'retained documents', 'intended exercise', 'unique identifier', '881c', '1381', '1321', '450', '42']"
+273,0.16943521594684385,0.10016366612111292,0.5493716337522442,0.44282460136674257,0.9510763209393346,0.28859857482185275,"['electors electoral', 'candidate official', 'meetings or', 'hours or', '3d or', 'day or', 'logic and', 'person subject', 'reason other', 'list and']"
+274,0.1695290858725762,0.10022928267278088,0.5493716337522442,0.44282460136674257,0.9510763209393346,0.28859857482185275,"['forms and', 'written resignation', 'judge other', 'day and', 'termination right', 'officers and', 'persons present', 'preceding polling', 'section accessible', 'duress or']"
+275,0.1688815060908084,0.09983633387888707,0.547576301615799,0.44272375313140516,0.9510763209393346,0.28851291184327693,"['name other', 'claim or', 'purpose other', 'candidates chief', 'persons usual', 'proceedings preliminary', 'providing information', 'respectively', 'persons official', 'officially']"
+276,0.1677740863787375,0.09918166939443535,0.5439856373429084,0.44272375313140516,0.9510763209393346,0.28851291184327693,"['remand centres', 'persons legal', 'following service', 'enumerations and', 'including policies', 'requiring assistance', 'reason unable', 'showing subdivision', 'enumeration general', 'section multiple']"
+277,0.16772765015222807,0.09914921465968586,0.5439856373429084,0.4430783242258653,0.952054794520548,0.2887240356083086,"['including telephone', 'voters physical', 'unreasonably', '16c and', 'sequentially', '1530914', '20613a', '2b', '5a', '9611']"
+278,0.16768123962368567,0.09911678115799803,0.5439856373429084,0.4433318161128812,0.9530332681017613,0.2888493475682088,"['date of', 'service on', '8a', '2a', '132a', '‑patients', '1530931', '1353', '3812', '1185b']"
+279,0.16768123962368567,0.09911678115799803,0.5439856373429084,0.4433318161128812,0.9530332681017613,0.2888493475682088,"['411', '15347', '1201', '59101d', '1446', 'maximum fine', '1488b', 'Commons', 'falsifies', '153091']"
+280,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,"['prayer', 'c5 s42', 'c8 s29', '‑2020', 'balcony', 'miscounts', '911', 'd2', 'vouch']"
+281,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+282,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+283,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+284,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+285,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+286,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+287,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+288,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+289,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+290,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+291,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+292,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+293,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+294,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+295,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+296,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+297,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+298,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+299,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+300,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+301,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+302,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+303,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+304,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+305,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+306,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+307,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+308,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+309,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+310,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+311,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+312,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+313,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+314,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+315,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+316,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+317,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+318,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+319,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+320,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+321,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+322,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+323,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+324,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+325,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+326,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+327,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+328,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+329,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+330,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+331,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+332,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+333,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+334,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+335,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+336,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+337,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+338,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+339,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+340,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+341,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+342,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+343,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+344,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+345,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+346,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+347,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+348,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+349,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+350,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+351,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+352,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+353,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+354,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+355,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+356,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+357,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+358,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+359,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+360,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+361,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+362,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+363,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+364,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+365,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+366,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+367,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+368,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+369,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+370,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+371,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+372,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+373,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+374,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+375,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+376,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+377,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+378,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+379,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+380,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+381,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+382,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+383,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+384,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+385,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+386,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+387,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+388,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+389,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+390,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+391,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+392,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+393,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+394,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+395,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+396,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+397,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+398,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+399,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+400,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+401,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+402,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+403,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+404,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+405,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+406,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+407,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+408,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+409,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+410,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+411,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+412,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+413,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+414,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+415,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+416,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+417,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+418,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+419,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+420,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+421,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+422,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+423,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+424,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+425,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+426,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+427,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+428,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+429,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+430,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+431,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+432,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+433,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+434,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+435,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+436,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+437,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+438,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+439,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+440,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+441,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+442,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+443,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+444,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+445,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+446,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+447,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+448,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+449,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+450,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+451,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+452,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+453,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+454,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+455,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+456,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+457,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+458,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+459,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+460,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+461,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+462,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+463,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+464,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+465,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+466,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+467,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+468,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+469,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+470,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+471,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+472,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+473,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+474,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+475,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+476,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+477,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+478,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+479,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+480,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+481,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+482,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+483,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+484,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+485,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+486,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+487,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+488,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+489,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+490,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+491,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+492,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+493,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+494,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+495,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+496,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+497,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+498,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+499,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+500,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+501,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+502,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+503,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+504,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+505,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+506,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+507,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+508,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+509,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+510,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+511,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+512,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+513,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+514,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+515,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+516,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+517,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+518,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+519,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+520,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+521,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+522,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+523,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+524,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+525,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+526,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+527,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+528,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+529,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+530,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+531,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+532,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+533,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+534,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+535,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+536,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+537,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+538,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+539,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+540,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+541,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+542,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+543,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+544,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+545,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+546,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+547,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+548,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+549,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+550,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+551,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+552,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+553,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+554,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+555,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+556,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+557,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+558,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+559,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+560,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+561,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+562,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+563,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+564,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+565,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+566,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+567,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+568,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+569,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+570,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+571,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+572,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+573,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+574,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+575,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+576,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+577,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+578,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+579,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+580,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+581,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+582,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+583,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+584,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+585,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+586,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+587,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+588,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+589,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+590,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+591,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+592,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+593,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+594,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+595,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+596,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+597,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+598,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+599,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+600,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+601,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+602,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+603,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+604,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+605,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+606,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+607,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+608,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+609,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+610,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+611,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+612,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+613,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+614,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+615,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+616,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+617,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+618,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+619,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+620,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+621,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+622,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+623,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+624,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+625,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+626,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+627,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+628,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+629,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+630,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+631,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+632,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+633,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+634,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+635,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+636,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+637,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+638,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+639,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+640,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+641,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+642,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+643,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+644,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+645,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+646,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+647,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+648,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+649,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+650,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+651,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+652,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+653,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+654,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+655,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+656,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+657,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+658,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+659,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+660,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+661,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+662,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+663,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+664,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+665,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+666,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+667,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+668,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+669,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+670,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+671,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+672,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+673,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+674,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+675,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+676,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+677,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+678,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+679,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+680,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+681,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+682,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+683,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+684,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+685,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+686,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+687,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+688,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+689,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+690,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+691,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+692,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+693,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+694,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+695,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+696,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+697,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+698,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+699,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+700,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+701,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+702,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+703,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+704,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+705,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+706,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+707,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+708,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+709,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+710,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+711,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+712,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+713,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+714,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+715,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+716,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+717,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+718,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+719,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+720,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+721,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+722,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+723,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+724,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+725,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+726,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+727,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+728,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+729,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+730,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+731,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+732,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+733,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+734,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+735,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+736,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
+737,0.16758849557522124,0.09905197777051324,0.5439856373429084,0.4439390493518308,0.9549902152641878,0.2891851851851852,[]
