@@ -112,7 +112,22 @@ class headings:
 
     def updateGraph(self, text=None):
         name = self.myName()
-        self.g.add_node(name, text=text, level=self.level)
+        self.g.add_node(
+            name,
+            text=text,
+            level=self.level,
+            part=self.part,
+            partName=self.partName,
+            division=self.division,
+            divisionName=self.divisionName,
+            sectionName=self.sectionName,
+            section=self.section,
+            subsection=self.subsection,
+            subsubsection=self.subsubsection,
+            subsubsubsection=self.subsubsubsection,
+            subsubsubsubsection=self.subsubsubsubsection,
+            name=name,
+        )
         # self.g.add_edge(name, self.parentName())
         self.g.add_edge(self.parentName(), name)
         # print(f"Created: {self.g.nodes[name]}")
@@ -315,6 +330,7 @@ def headingParser(previousText, text, nextText):
             main_section, sub_section = text.split("(")
             sub_section = sub_section[:-1]  # trim off the last bracket
             currentHeadings.setSection(main_section)
+            currentHeadings.updateGraph(text="STUB")
             currentHeadings.setSubSection(sub_section)
             return
         else:
@@ -325,6 +341,7 @@ def headingParser(previousText, text, nextText):
         text = text[1:-1]
         if text[0].isnumeric():
             currentHeadings.setSubSection(text)
+            currentHeadings.updateGraph(text=text)
             return
         if "." in text:
             a, b = text.split(".")
