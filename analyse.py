@@ -11,6 +11,8 @@ import tensorflow_hub as hub
 import spacy
 
 # Spacy setup
+
+# this method is adapted from https://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string
 table = str.maketrans({key: None for key in string.punctuation + "’" + "“" + "”"})
 seed_finder = re.compile(r"“.+”")  # note that this wont work if punctuation is removed
 

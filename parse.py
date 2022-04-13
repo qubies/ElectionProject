@@ -302,9 +302,6 @@ def headingParser(previousText, text, nextText):
         if currentHeadings.lastAction == "setPart":
             currentHeadings.setPartName(text)
             return
-        # elif currentHeadings.lastAction == "setDivision":
-        #     currentHeadings.setDivisionName(text)
-        #     return
 
         if text[:4] == "Part":  # the part is the most basic of headings
             _, num = text.split(" ")

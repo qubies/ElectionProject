@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  jup:
+    build: .
+    container_name: jupyter2
+    ports:
+      - "8889:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./:/tf/work
